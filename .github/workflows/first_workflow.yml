@@ -8,7 +8,7 @@ on:
 jobs:
   first_job:
     name: First Job
-    runsruns-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Greetings
         run: |
